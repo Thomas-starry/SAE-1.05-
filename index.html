@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>SAE 1.05 - La fiction pour moi - Thomas Mauclert</title>
+    <link rel="icon" type="image/png" href="images/favicon.png"/> 
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Monsieur+La+Doulaise&family=Tinos:wght@400;700&family=UnifrakturCook:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<body>
+    <header>SAE 1.05 - Ma passion en images - Thomas Mauclert</header>
+
+    <div class="bloc-titre1">
+        <span class="fond_Titre1">
+            <h1>La Fiction</h1>
+        </span>
+    </div>
+
+    <nav class="sommaire">
+        <a href="#Lecture" class="sum sum1">
+            <h2>01<br>Lecture</h2>
+        </a>
+
+        <a href="#Cinéma" class="sum sum2">
+            <h2>02<br>Cinéma</h2>
+        </a>
+
+        <a href="#Visual Novel" class="sum sum3">
+            <h2>03<br>Visual novel</h2>
+        </a>
+    </nav>
+
+    <div class="popup popup-invisible ">
+        <img src="" alt="">
+        <span><img src= "images/cache_fenetre.svg" class="cache-fenêtre"/></span>
+    </div>
+
+    <div class="liste-images">
+
+
+
+
+
+
+    </div>
+
+    <br>
+
+    <div class="form-bloc">
+        <form action="" method="get">
+            <fieldset>
+                <legend>Suggérer une image</legend>
+                <p class="indication">Les champs marqués d'un astérix sont obligatoires</p>
+                <p class="message_erreur"></p>
+
+                <p>
+                    <label for="titre">Titre<span class="astérix">*</span>:</label>
+                    <input type="text" name="title" id="titre" required maxlength="100"
+                        aria-describedby="maxlength_title">
+                    <small aria-describedby="maxlength_title">100 caractères maximum</small>
+                </p>
+                <p>
+                    <label for="description">Description<span class="astérix">*</span>:</label>
+                    <input type="text" name="description" id="description" required maxlength="300"
+                        aria-describedby="maxlength_description">
+                    <small aria-describedby="maxlength_description">300 caractères maximum</small>
+                </p>
+                <p>
+                    <label for="url">URL (du type https://…)<span class="astérix">*</span>:</label>
+                    <input type="url" name="url" id="url" required>
+                </p>
+                <p>
+                    <input type="button" value="Envoyer">
+                </p>
+            </fieldset>
+        </form>
+    </div>
+    <footer><p>Mentions légales</p>
+        <div class="popup_mentions_légales popup-invisible">
+            <span><img src= "images/cache_fenetre.svg" class="cache-fenêtre-mentions"/></span>
+            <h2>Mentions Légales</h2>
+            <ul>
+            <li>Photo de <a
+                    href="https://unsplash.com/fr/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Annie
+                    Spratt</a> sur <a
+                    href="https://unsplash.com/fr/photos/lot-de-papier-blanc-et-noir-_dAnK9GJvdY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </li>
+            <li>Photo de <a
+                    href="https://unsplash.com/fr/@blazphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Blaz
+                    Photo</a> sur <a
+                    href="https://unsplash.com/fr/photos/personne-tenant-un-livre-assis-sur-une-surface-brune-zMRLZh40kms?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </li>
+            <li>Photo de <a
+                    href="https://unsplash.com/fr/@jacobmejicanos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jacob
+                    Mejicanos</a> sur <a
+                    href="https://unsplash.com/fr/photos/un-grand-auditorium-vide-IM6t12LL7KM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </li>
+            <li>
+                Photo de <a href="https://unsplash.com/fr/@ugur?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ugur Akdemir</a> sur <a href="https://unsplash.com/fr/photos/manette-de-jeu-sans-fil-noire-5X39cfzKX3o?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </li>
+        </ul>
+        <p>Hébergeur: O2Switch</p>
+        <p>Contact: thomas.mauclert@gmail.com</p>
+        </div>
+    </footer>
+
+    <!-- <div class="dégradé"></div> -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
