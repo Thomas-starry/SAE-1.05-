@@ -1,5 +1,5 @@
 let imgs_clic, img_popup, cache_fenetre;
-let codeDuBloc = "<section><img src='images/coin_section.svg' class='coin coinG'/><h2 id='{{titre}}'>{{titre}}</h2><div class='bloc-img'><img src='images/{{titre}}.jpg' alt='{{description}}' class='image-cliquable'><p class ='paragraphe'>{{texte}}</p></div><img src='images/coin_section.svg' class='coin coinD'/></section>";
+let codeDuBloc = "<section><img src='images/coin_section.svg' class='coin coinG'/><h2 id='{{titre}}'>{{titre}}</h2><div class='bloc-img'><img src='images/{{titre_image}}.jpg' alt='{{description}}' class='image-cliquable'><p class ='paragraphe'>{{texte}}</p></div><img src='images/coin_section.svg' class='coin coinD'/></section>";
 
 document.addEventListener("DOMContentLoaded", function () {
 
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 console.log(img['titre']);
 
-                document.querySelector(".liste-images").innerHTML += codeDuBloc.replaceAll("{{titre}}", img['titre']).replace("{{description}}", img['description']).replace("{{texte}}", img['texte']);
+                document.querySelector(".liste-images").innerHTML += codeDuBloc.replaceAll("{{titre}}", img['titre']).replace("{{description}}", img['description']).replace("{{texte}}", img['texte']).replace("{{titre_image}}", img['titre_image']);
 
                 console.log('Image: ', img['titre']);
             })

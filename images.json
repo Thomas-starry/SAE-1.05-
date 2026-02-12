@@ -1,12 +1,15 @@
     [ {"titre": "Lecture", 
+    "titre_image":"Lecture",
     "description": "Livre ouvert tenu par une personne en tailleur. Cliquer pour agrandir.", 
     "texte": "Depuis tout petit, j’aime beaucoup la fiction et notamment à travers les livres. La lecture a donc toujours été une passion pour moi. J’adore plonger dans une histoire, m’attacher aux personnages et m’identifier à eux. Lire un livre me permet de m’évader, de ressentir et de réfléchir sur certains sujets. C’est une activité relaxante et à la fois divertissante. J'apprécie me laisser porter par le scénario, la créativité de l’écriture. La fiction à travers la lecture permet vraiment de laisser mon imagination faire vivre l’histoire."},
     
     { "titre": "Cinéma", 
+    "titre_image":"Cinema",
     "description": "Fauteuils rouges alignés dans une salle de cinéma. Cliquer pour agrandir.", 
-    "texte": "Le format du cinéma est une autre manière de faire vivre la fiction. À travers les films, et séries presque tout nous est montré. Ce qui est intéressant est la manière de nous montrer les choses dans le but de servir l’intrigue. Les éléments comme la mise en scène, les plans, la colorimétrie, le jeu d'acteur, vont contribuer à nous plonger dans l’histoire. J’aime beaucoup le fait que les émotions peuvent être suggérées de manière implicite. J’ai d'ailleurs une préférence pour le cinéma d’animation qui laisse plus de liberté dans la direction artistique du film."
+    "texte": "Le format du cinéma est une autre manière de faire vivre la fiction. À travers les films et séries, presque tout nous est montré. Ce qui est intéressant est la manière de nous montrer les choses dans le but de servir l’intrigue. Les éléments comme la mise en scène, les plans, la colorimétrie, le jeu d'acteur, vont contribuer à nous plonger dans l’histoire. J’aime beaucoup le fait que les émotions peuvent être suggérées de manière implicite. J’ai d'ailleurs une préférence pour le cinéma d’animation qui laisse plus de liberté dans la direction artistique du film."
     },
 
     { "titre": "Visual Novel", 
+    "titre_image":"Visual Novel",
     "description": "Manette noire posée sur une table blanche. Cliquer pour agrandir.", 
     "texte": "Une autre forme que peut prendre la fiction et que j’adore, est le visual novel. Il s’agit d’un jeu vidéo avec quelques éléments de gameplay mais dont l’objectif principal est de nous raconter une histoire. Donc comme pour un film on va avoir des cinématiques, avec des dialogues, des animations et même dans certains cas des réelles captations d’acteurs. Généralement, ce genre de jeu laisse la possibilité à certains moments de faire un choix déterminants pour la suite de l’histoire. Le scénario s’adaptera aux choix du joueur. Ce format nous laisse plus de liberté qu'au cinéma car on a vraiment l’impression d’influencer l’histoire. Cela renforce d’ailleurs notre immersion dans l’histoire."}]
